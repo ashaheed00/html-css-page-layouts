@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+  margin: 0;
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 20px;
+}
+
+.leftSidebar {
+  background: #d7e8d4;
+  font-weight: bold;
+  flex: 1;
+}
+
+.mainBar {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+}
+
+.inner-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-col {
+  flex: 4;
+}
+
+.mainArticle {
+  min-height: 20vh;
+}
+
+.rightSideBar {
+  background: beige;
+  font-weight: bold;
+  flex: 1;
+}
+
+header {
+  align-content: center;
+  background: turquoise;
+  font-weight: bold;
+  padding: 10px;
+  height: 10vh;
+}
+
+footer {
+  background: yellowgreen;
+  height: 20vh;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 1em;
+}
