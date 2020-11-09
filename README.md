@@ -1,3 +1,3 @@
 # html-css-page-layouts
 
-### UC2_SampleWebLayouts
+### UC3_PhotoGalleryLayouts
