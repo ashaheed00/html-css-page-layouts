@@ -16,7 +16,7 @@ body {
   align-content: center;
   background: teal;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   color: #ffffff;
 }
 
@@ -58,4 +58,24 @@ error-output {
   font-size: 12px;
   font-style: bold;
   color: red;
+}
+
+@media only screen and (max-width: 360px) {
+  h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  label {
+    width: 50%;
+    font-size: 13px;
+    margin: 5px;
+  }
+
+  .headerContainer {
+    margin-bottom: 10px;
+  }
+
+  .headerContainer div {
+    padding: 10px 0px 10px 0px;
+  }
 }
